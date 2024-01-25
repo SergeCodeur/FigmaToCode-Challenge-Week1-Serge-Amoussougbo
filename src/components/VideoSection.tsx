@@ -9,17 +9,17 @@ const VideoSection = () => {
         <h2 className="font-poppins text-3xl text-teal-500 font-medium tracking-[0.44px] text-center mb-3">
           Why Dr. Matthew Anderson?
         </h2>
-        <div className="relative bg-doctor-image bg-no-repeat bg-cover min-h-[500px] rounded-4xl w-full flex flex-col justify-center items-center">
-          <button className="w-24 h-24 rounded-full bg-primary flex justify-center items-center pl-3">
+        <div className="relative bg-doctor-image bg-center bg-no-repeat bg-cover lg:min-h-[500px] min-h-96 rounded-4xl w-full flex flex-col justify-center items-center">
+          <button className="lg:w-24 lg:h-24 w-20 h-20 rounded-full bg-primary flex justify-center items-center pl-3">
             <FiPlay className="text-white" size={45} />
           </button>
         </div>
         <div className="mt-4">
-          <div className="px-20">
-            <h3 className="text-5xl font-semibold text-black text-center">
+          <div className="lg:px-20">
+            <h3 className="lg:text-5xl text-4xl font-semibold text-black text-center">
               A dedicated doctor with the core mission to help
             </h3>
-            <p className="text-base font-normal text-slate-500 text-center">
+            <p className="lg:text-base  text-lg font-normal text-slate-500 text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam
               proin nibh cursus at sed sagittis amet, sed. Tristique id nibh
               lobortis nunc elementum. Tellus quam mauris aenean turpis
