@@ -33,7 +33,7 @@ const AdvantageFeatureCards: React.FC<Props> = ({ className, id }) => {
       {AdvantageContent.map((content) => (
         <div
           key={content.title}
-          className="flex items-center justify-center gap-3 bg-gradient-145 rounded-xl py-4 px-[18px] max-lg:min-w-[320px]"
+          className="flex items-center justify-center gap-3 bg-gradient-145 rounded-xl py-4 px-[18px] max-lg:min-w-full"
         >
           {content.icon}
           <h3 className="text-white text-xl font-semibold font-poppins">
