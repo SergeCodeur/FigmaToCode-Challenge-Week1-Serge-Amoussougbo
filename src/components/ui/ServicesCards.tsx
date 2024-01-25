@@ -75,7 +75,7 @@ const ServicesCards: React.FC<Props> = ({ className, id }) => {
         {ServiceContent.map((content) => (
           <div
             key={content.title}
-            className="flex flex-col items-center justify-center gap-3 rounded-xl px-6 py-8 bg-white"
+            className="flex flex-col items-center justify-center gap-3 rounded-xl px-4 py-8 bg-white"
           >
             <Image src={content.imagePath} width={200} height={200} alt="" />
             <div className="flex flex-col">
@@ -97,7 +97,7 @@ const ServicesCards: React.FC<Props> = ({ className, id }) => {
         <Swiper spaceBetween={50} slidesPerView={1} navigation={true}>
           {ServiceContent.map((content) => (
             <SwiperSlide key={content.title} className="flex justify-center">
-              <div className="flex flex-col items-center justify-center gap-3 rounded-xl py-2 px-8 bg-white max-w-80 mx-auto">
+              <div className="flex flex-col items-center justify-center gap-3 rounded-xl py-2 px-5 bg-white max-w-80 mx-auto">
                 <Image
                   src={content.imagePath}
                   width={200}
