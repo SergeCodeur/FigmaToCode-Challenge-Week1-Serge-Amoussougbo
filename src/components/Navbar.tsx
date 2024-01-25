@@ -26,7 +26,10 @@ const Routes = [
   },
 ];
 
-const Navlinks = () => {
+type Props = {
+  onClick: () => void;
+};
+const Navlinks: React.FC<Props> = ({ onClick }) => {
   return (
     <>
       {Routes.map((route) => (
@@ -34,6 +37,7 @@ const Navlinks = () => {
           <Link
             href={route.path}
             className={`text-xl lg:text-slate-500 text-white`}
+            onClick={onClick}
           >
             {route.name}
           </Link>
@@ -69,7 +73,7 @@ const Navbar = () => {
       >
         <nav>
           <ul className="flex lg:flex-row flex-col lg:gap-10 gap-7 text-center">
-            <Navlinks />
+            <Navlinks onClick={handleClick} />
           </ul>
         </nav>
         <Button className="gap-2">
