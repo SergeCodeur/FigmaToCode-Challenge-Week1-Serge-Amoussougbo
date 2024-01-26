@@ -1,10 +1,11 @@
 import MaxContentWidthWrapper from "./MaxContentWidthWrapper";
+import TestimonialCards from "./ui/TestimonialCards";
 
 const TestimonialsSection = () => {
   return (
-    <div className="bg-slate-50">
+    <div className="bg-slate-50 py-32">
       <MaxContentWidthWrapper className="lg:px-10 px-7">
-        <div className="py-32 flex items-center flex-col">
+        <div className="flex items-center flex-col mb-14">
           <h2 className="font-poppins lg:text-5xl lg:w-2/3 text-4xl text-slate-900 font-bold mt-2 text-center">
             What our great customers say about Dr. Matthew Anderson
           </h2>
@@ -13,6 +14,7 @@ const TestimonialsSection = () => {
             eiusmod tempor incididunt ut labore et dolore
           </p>
         </div>
+        <TestimonialCards />
       </MaxContentWidthWrapper>
     </div>
   );
