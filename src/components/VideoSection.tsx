@@ -23,7 +23,7 @@ const VideoSection = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam
               proin nibh cursus at sed sagittis amet, sed. Tristique id nibh
               lobortis nunc elementum. Tellus quam mauris aenean turpis
-              vulputate sodales nullam lobortis. Vulputate tortor tincidun.
+              vulputate sodales nullam lobortis. Vulputate tortor tincidun .
             </p>
           </div>
           <div>
