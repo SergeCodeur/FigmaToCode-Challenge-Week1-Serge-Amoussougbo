@@ -7,7 +7,7 @@ import MaxContentWidthWrapper from "./MaxContentWidthWrapper";
 
 const Footer = () => {
   return (
-    <div className="bg-primary">
+    <div className="bg-primary" id="contact">
       <MaxContentWidthWrapper className="lg:px-10 px-7 pt-16 pb-12">
         <div className="grid lg:grid-cols-4 grid-flow-col-1 gap-8">
           <div className="relative grow-[2]">
