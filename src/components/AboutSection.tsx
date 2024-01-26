@@ -9,7 +9,7 @@ const AboutSection = () => {
     <MaxContentWidthWrapper>
       <div className="w-full grid lg:justify-between gap-10 lg:grid-cols-2 items-center py-10 lg:px-10 px-7 max-lg:gap-10 relative">
         <FeaturedCards
-          className="lg:absolute static max-lg:justify-items-center lg:-top-10 lg:left-2/4 lg:-translate-x-2/4 max-lg:order-1 max-lg:items-center w-full"
+          className="lg:absolute static max-lg:justify-items-center lg:-top-10 lg:left-2/4 lg:-translate-x-2/4 max-lg:order-1 max-lg:items-center w-4/5"
           id="about"
         />
         <div className="lg:mt-20 mt-5 max-lg:order-2 max-lg:flex max-lg:justify-center">
