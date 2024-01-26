@@ -15,7 +15,7 @@ const VideoSection = () => {
           </button>
         </div>
         <div className="mt-4">
-          <div className="lg:px-20">
+          <div className="lg:px-20 px-1">
             <h3 className="lg:text-5xl text-4xl font-semibold text-black text-center">
               A dedicated doctor with the core mission to help
             </h3>
@@ -23,7 +23,7 @@ const VideoSection = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam
               proin nibh cursus at sed sagittis amet, sed. Tristique id nibh
               lobortis nunc elementum. Tellus quam mauris aenean turpis
-              vulputate sodales nullam lobortis. Vulputate tortor tincidun .
+              vulputate sodales nullam lobortis. Vulputate tortor tincidun.
             </p>
           </div>
           <div>
