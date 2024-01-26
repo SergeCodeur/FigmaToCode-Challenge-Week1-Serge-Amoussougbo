@@ -9,7 +9,7 @@ const Button: React.FC<Props> = ({ children, className }) => {
   return (
     <button
       className={cn(
-        "bg-gradient-96 text-white font-semibold py-4 px-7 rounded-[100px] lg:text-xl text-[15px] inline-flex justify-center items-center shadow-lg shadow-blue-500/25",
+        "bg-gradient-96 text-white font-semibold py-4 px-7 rounded-[100px] lg:text-xl text-sm inline-flex justify-center items-center shadow-lg shadow-blue-500/25",
         className
       )}
     >
