@@ -2,6 +2,8 @@
 import Image from "next/image";
 import { FaWhatsapp } from "react-icons/fa";
 import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { cn } from "../../lib/utils";
 import Button from "./Button";
@@ -94,7 +96,12 @@ const ServicesCards: React.FC<Props> = ({ className, id }) => {
         ))}
       </div>
       <div className="hidden max-lg:block">
-        <Swiper spaceBetween={50} slidesPerView={1} navigation={true}>
+        <Swiper
+          spaceBetween={50}
+          slidesPerView={1}
+          modules={[Navigation]}
+          navigation={true}
+        >
           {ServiceContent.map((content) => (
             <SwiperSlide key={content.title} className="flex justify-center">
               <div className="flex flex-col items-center justify-center gap-3 rounded-xl py-2 px-5 bg-white max-w-80 mx-auto">
